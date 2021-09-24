@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Wrapper, Container, Nav } from './styled';
+import { FlexWrapper, Container, Nav } from './styled';
 
 export const Header = () => {
   return (
-    <Wrapper>
+    <FlexWrapper>
       <Container>
         <header>
           <h1>Fake Store API</h1>
@@ -22,11 +22,11 @@ export const Header = () => {
               <Link to="/products">Products</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/search">Products</Link>
             </li>
           </ul>
         </Nav>
       </Container>
-    </Wrapper>
+    </FlexWrapper>
   );
 };

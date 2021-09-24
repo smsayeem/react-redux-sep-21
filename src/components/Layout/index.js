@@ -7,8 +7,10 @@ import { Wrapper, BodyContent } from './styled';
 export function Layout({ children }) {
   return (
     <Wrapper>
-      <Header />
-      <BodyContent>{children}</BodyContent>
+      <div>
+        <Header />
+        <BodyContent>{children}</BodyContent>
+      </div>
       <Footer />
     </Wrapper>
   );

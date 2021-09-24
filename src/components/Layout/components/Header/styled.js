@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const FlexWrapper = styled.div`
   text-align: center;
   height: 130px;
   background-color: var(--color-primary-1);
