@@ -2,7 +2,14 @@
 
 [react, redux, redux-thunk, styled-components, react-router]
 
-## functionality
+## features:
+
+- nice css styling with layout
+- navigation with react router
+- Pages: Home, About, Products, npm packages search
+  --Products: collections of products
+  prodduct: single product
+  --npm packages search: search valid npm packages
 
 ### product
 

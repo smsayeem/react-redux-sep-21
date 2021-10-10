@@ -45,7 +45,6 @@ export const Nav = styled.div`
   a {
     display: inline-block;
     padding: 10px 18px;
-    width: 100px;
     color: inherit;
   }
 `;

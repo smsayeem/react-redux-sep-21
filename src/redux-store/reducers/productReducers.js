@@ -9,7 +9,6 @@ export const allProductReducer = (state = initialState, { type, payload }) => {
     case actionTypes.FETCH_PRODUCTS_SUCCESS:
       return { ...state, products: payload };
     case actionTypes.FETCH_PRODUCTS_ERROR:
-      return state;
     default:
       return state;
   }
